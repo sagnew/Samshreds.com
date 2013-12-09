@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Agnew</title>
+
+        <link rel="stylesheet" href="static/foundation/css/normalize.css">
+        <link rel="stylesheet" href="static/foundation/css/foundation.css">
+        <link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <link href="static/css/custom.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        {% block content %}
+        <div class="row">
+
+            <div id='logo' align="center" class="large-12 columns">
+
+                <img src="/static/imgs/logo.png" alt="Sam Agnew">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="large-4 columns">
+                <img src="/static/imgs/hacker.jpg" alt="Sam Agnew">
+            </div>
+
+            <div class="large-4 columns">
+                <img src="/static/imgs/student.jpg" alt="Sam Agnew">
+            </div>
+
+            <div class="large-4 columns">
+                <img src="/static/imgs/musician.jpg" alt="Sam Agnew">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="large-12 columns">
+
+            </div>
+
+        </div>
+
+        {% endblock %}
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="static/foundation/js/vendor/custom.modernizr.js"></script>
+        <script src="static/foundation/js/foundation.min.js"></script>
+        <script src="static/js/interactivity.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>
